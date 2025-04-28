@@ -19,7 +19,7 @@ if url:
     # Progress indicator
     with st.spinner("Setting up models and chains..."):
         try:
-            groq_api_key = "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"
+            groq_api_key = "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"
             # Create a Groq API client
             llm = ChatGroq(model="gemma2-9b-it", groq_api_key=groq_api_key)
             # Define embeddings model
